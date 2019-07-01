@@ -1,0 +1,43 @@
+{
+  "name": "InstagramClone",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android": "cd android && gradlew app:assembleDebug && gradlew installDebug",
+    "postinstall": "node_modules/.bin/rn-nodeify --install crypto --hack"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.5.0",
+    "axios": "^0.19.0",
+    "cryptr": "^4.0.2",
+    "express-jwt": "^5.3.1",
+    "js-base64": "^2.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-crypto": "^2.1.2",
+    "react-native-cryptr": "^2.0.0",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-modal": "^11.0.2",
+    "react-native-navigation": "^2.21.0-experimental.4",
+    "react-native-randombytes": "^3.5.3",
+    "react-timer-mixin": "^0.13.4",
+    "stream": "^0.0.2",
+    "stream-browserify": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3",
+    "rn-nodeify": "^6.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
