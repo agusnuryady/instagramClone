@@ -137,7 +137,6 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch',
         borderRadius: 2,
         backgroundColor: 'rgba(255,255,255,0.1)',
-    
     },
     buttonText: {
         fontSize: 15,
