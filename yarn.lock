@@ -909,11 +909,6 @@
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.12.tgz#45dd1d0638e8c8f153e87d296907659296873916"
   integrity sha512-SOhuU4wNBxhhTHxYaiG5NY4HBhDIDnJF60GU+2LqHAdKKer86//e4yg69aENCtQ04n0ovz+tq2YPME5t5yp4pw==
 
-"@yarnpkg/lockfile@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
-  integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
-
 abab@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.0.tgz#aba0ab4c5eee2d4c79d3487d85450fb2376ebb0f"
@@ -1910,6 +1905,11 @@ cross-spawn@^6.0.0:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
+cryptr@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/cryptr/-/cryptr-4.0.2.tgz#8a93b5ca7667d1a6131e396bab23a134ff1f5dc6"
+  integrity sha512-gLTcYjmLGe0Kk1yyacvjNKvSdkWBNNgG2tDnbRQP7yE559x/RJLo/I3WAmwCXNXf/fzMHCNp9vDv3PCopZDpXw==
+
 cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/cssom/-/cssom-0.3.6.tgz#f85206cee04efa841f3c5982a74ba96ab20d65ad"
@@ -2334,10 +2334,10 @@ expect@^24.8.0:
     jest-message-util "^24.8.0"
     jest-regex-util "^24.3.0"
 
-express-jwt@^5.3.1:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/express-jwt/-/express-jwt-5.3.1.tgz#66f05c7dddb5409c037346a98b88965bb10ea4ae"
-  integrity sha512-1C9RNq0wMp/JvsH/qZMlg3SIPvKu14YkZ4YYv7gJQ1Vq+Dv8LH9tLKenS5vMNth45gTlEUGx+ycp9IHIlaHP/g==
+express-jwt@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/express-jwt/-/express-jwt-6.0.0.tgz#20886c730983ffb1c706a4383235df86eff349b8"
+  integrity sha512-C26y9myRjx7CyhZ+BAT3p+gQyRCoDZ7qo8plCvLDaRT6je6ALIAQknT6XLVQGFKwIy/Ux7lvM2MNap5dt0T7gA==
   dependencies:
     async "^1.5.0"
     express-unless "^0.3.0"
@@ -3714,6 +3714,11 @@ jest@^24.8.0:
   dependencies:
     import-local "^2.0.0"
     jest-cli "^24.8.0"
+
+js-base64@^2.5.1:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.6.2.tgz#cf9301bc5cc756892a9a6c8d7138322e5944fb0d"
+  integrity sha512-1hgLrLIrmCgZG+ID3VoLNLOSwjGnoZa8tyrUdEteMeIzsT6PH7PMLyUvbDwzNE56P3PNxyvuIOx4Uh2E5rzQIw==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -5893,11 +5898,11 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-"rn-nodeify@github:tradle/rn-nodeify":
-  version "10.0.1"
-  resolved "https://codeload.github.com/tradle/rn-nodeify/tar.gz/86763a2e44f80b2089eae13ca3593260a93aac16"
+rn-nodeify@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/rn-nodeify/-/rn-nodeify-6.0.1.tgz#834df3dd7dd5853e172955250c76ecdf289147d8"
+  integrity sha1-g03z3X3VhT4XKVUlDHbs3yiRR9g=
   dependencies:
-    "@yarnpkg/lockfile" "^1.0.0"
     deep-equal "^1.0.0"
     findit "^2.0.0"
     fs-extra "^0.22.1"
