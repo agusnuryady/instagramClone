@@ -17,7 +17,7 @@
     "jsonwebtoken": "^8.5.1",
     "native-base": "^2.12.1",
     "react": "16.8.3",
-    "react-native": "0.59.9",
+    "react-native": "0.62.3",
     "react-native-crypto": "^2.1.2",
     "react-native-cryptr": "^2.0.0",
     "react-native-linear-gradient": "^2.5.4",
