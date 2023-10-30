@@ -15,7 +15,7 @@
     "express-jwt": "^5.3.1",
     "js-base64": "^2.5.1",
     "jsonwebtoken": "^8.5.1",
-    "native-base": "^2.12.1",
+    "native-base": "^2.15.2",
     "react": "16.8.3",
     "react-native": "0.59.9",
     "react-native-crypto": "^2.1.2",
